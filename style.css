@@ -1,0 +1,49 @@
+h1{
+  font-size:100px;
+  color:white;
+}
+
+nav{
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    height:40px;
+}
+
+img.img-resize{
+  height:400px;
+  width:400px;
+}
+
+.carousel-inner > .item > img{
+  height:500px;
+}
+
+img.carousel-images{
+  width:100%;
+}
+
+img.games{
+  height:300px;
+  width:200px;
+}
+
+p, h3, .jumbotron > h4, .jumbotron > h5, .white-text{
+   color:white;
+ }
+
+div.jumbotron{
+  background-color:black;
+}
+
+@keyframes btn-animation{
+  from{background-color: black;}
+  to{background-color: yellow;}
+}
+
+.btn:hover{
+  animation: btn-animation 2s forwards;
+}
